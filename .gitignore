@@ -1,7 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # yarn
-*.lock
 .yarnrc.yml
 .yarn/*
 
@@ -51,3 +50,4 @@ dev
 *.key.pub
 
 masks.json
+yarn.lock
