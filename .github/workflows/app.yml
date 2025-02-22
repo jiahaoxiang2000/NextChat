@@ -42,8 +42,7 @@ jobs:
         config:
           - os: macos-latest
             arch: aarch64
-            rust_target: aarch64-apple-darwin
-     
+            rust_target: aarch64-apple-darwin,x86_64-apple-darwin 
 
     runs-on: ${{ matrix.config.os }}
     steps:
