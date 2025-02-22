@@ -51,4 +51,3 @@ dev
 *.key.pub
 
 masks.json
-yarn.lock
